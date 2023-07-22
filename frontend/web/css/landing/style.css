@@ -1,0 +1,66 @@
+
+.landing-index {
+    background: url('/images/landing/bg.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.landing-index .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-index .header .lang {
+    display: flex;
+}
+
+.landing-index .header .lang a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+.landing-index .steps {
+    text-transform: none;
+    margin: auto;
+    width: 62vw;
+    text-align: center;
+}
+
+.landing-index .steps .title {
+    font-family: "Parimatch", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.5vw;
+    line-height: 113.5%;
+    text-align: center;
+    color: #fff;
+}
+
+.landing-index .steps .blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.landing-index .steps .blocks .img  img {
+    width: 15vw;
+}
+
+.landing-index .steps .blocks .text {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    line-height: 113.5%;
+    padding: 0 1.1vw;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.landing-index .chests .blocks {
+    display: flex;
+}
+
+.landing-index .ether .block {
+    display: flex;
+}
